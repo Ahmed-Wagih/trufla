@@ -22,6 +22,9 @@
     .collapse ul.navbar-nav{
         text-align: center;
     }
+    #slider .slider .get-quote{
+        margin-left: 0;
+    }
     
 }
 @media screen and (max-width: 991px){
@@ -45,5 +48,15 @@
     #products .products p{
         text-align: left;
         margin: 0;
+    }
+    #aboutUs{
+        padding: 50px 50px;
+    }
+    #slider .slider h1{
+        padding: 91px 0px 0 0;
+    text-align: center;
+    }
+    #slider .slider p {
+        padding: 0px 10px 9px 10px;
     }
 }
