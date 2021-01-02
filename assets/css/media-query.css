@@ -1,0 +1,9 @@
+@media screen and (max-width: 767px){
+    #topNavBar .right-navbar .nav-item a{
+        font-size: 26px;
+        position: relative;
+        top: -4px;
+        left: 26px;
+    }
+    }
+}
