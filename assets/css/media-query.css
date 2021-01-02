@@ -5,5 +5,45 @@
         top: -4px;
         left: 26px;
     }
+    #topNavBar .right-navbar .get-quote{
+        padding: 12px 21px 5px 5px;
+    }
+    #topNavBar .right-navbar .get-quote span.quote{
+        font-size: 16px;
+    }
+     .navbar-brand{
+        position: relative;
+        left: 24% !important;
+    }
+    .collapse .navbar-brand{
+        left: 0% !important;
+    }
+
+    .collapse ul.navbar-nav{
+        text-align: center;
+    }
+    
+}
+@media screen and (max-width: 991px){
+    #slider .slider .text{
+        margin: auto;
+        text-align: center;
+    }
+    #slider .slider h1{
+        padding: 100px 0px 22px 80px;
+    }
+    #slider .slider p{
+        padding: 0px 0px 25px 80px;        
+    }
+}
+
+@media screen and (max-width: 575px){
+    #products .products .product .product-details{
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    #products .products p{
+        text-align: left;
+        margin: 0;
     }
 }

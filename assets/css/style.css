@@ -1,6 +1,7 @@
 /* Start Top Navbar */
 #topNavBar .navbar-brand img{
     max-width: 100px;
+    left: 75%;
 }
 .navbar-light .navbar-toggler{
     border: none;
@@ -33,3 +34,118 @@
     color: #fff !important;
 }
 /* End Top Navbar */
+
+/* Start Navbar */ 
+#navBar .navbar {
+    background: #9ca2c6;
+}
+#navBar .navbar .nav-item{
+    margin-right: 20px;
+}
+#navBar .navbar .nav-link{
+    color: #fff;
+}
+/* End Navbar */ 
+
+/* Start Slider */ 
+#slider{
+    background-image: url('../images/slider/slide-1.jpg');
+    min-height: 500px;
+    background-size: cover;
+}
+#slider .slider{
+    background-color: rgba(9, 9, 9, 0.5);
+    min-height: 500px;
+    width: 100%;
+}
+#slider .slider h1{
+    padding: 100px 0px 60px 80px;
+    font-weight: 700;
+    color: #FFF;
+    font-size: 56px;
+}
+#slider .slider .text{
+    max-width: 700px;
+}
+#slider .slider p{
+    padding: 0px 0px 60px 80px;
+    color: #FFF;
+    
+}
+#slider .slider .get-quote{
+    background-color: orange;
+    padding: 13px 35px;
+    border-radius: 5px;
+    color: #fff !important;
+    margin-left: 78px;
+    font-weight: 600;
+
+}
+/* End Slider */ 
+
+/* Start Products Section*/ 
+#products .products{
+    padding: 100px 0px;
+    background-color: #f2f3fc;
+}
+#products .products .title{
+    font-weight: 700;
+    font-size: 54px;
+    margin-bottom: 50px;;
+}
+#products .products .product{
+    margin-bottom: 50px !important;
+}
+#products .products .product .product-details{
+    background: #FFF;
+    padding-top: 70px;
+    padding-bottom: 60px;
+    margin: 0 10px;
+    border: 1px solid #bbb;
+    border-radius: 5px;
+}
+#products .products .product .product-details:hover{
+    background-color: #a4aad0;
+}
+#products .products .product .product-details:hover p{
+    color: #fff;
+}
+#products .products img{
+    max-width: 50px;
+    margin: auto;
+    display: block;
+}
+
+#products .products p{
+    text-align: center;
+    margin: 20px auto;
+    font-weight: 500;
+}
+/* End Products Section*/ 
+
+/* Start About Us */
+#aboutUs{
+    padding: 50px 200px;
+}
+#aboutUs h3{
+    font-weight: 700;
+    font-size: 42px;
+}
+#aboutUs h4{
+    font-size: 36px;
+    font-weight: 400;
+}
+#aboutUs p{
+    font-size: 18px;
+    font-weight: 500;
+}
+#aboutUs p.small{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.8);
+}
+#aboutUs h5 {
+    color: #6f759d;
+    font-weight: 500;   
+}
+/* End About Us */
